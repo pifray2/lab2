@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>EX.3.1</title>
+    <link rel="stylesheet" href="css/reg.css">
+  </head>
+  <body>
+    <h1>ЗАО Птицефабрика №1</h1>
+    <table width="100%" cellspacing="0" cellpadding="4">
+      <tr>
+        <td align="right"><label for="fam">Фамилия</label></td>
+        <td><input type="text" name="fam"></td>
+      </tr>
+      <tr>
+        <td align="right"><label for="init">Инициалы</label></td>
+        <td><input type="text" name="init"></td>
+      </tr>
+      <tr>
+        <td align="right"><label for="password">Пароль</label></td>
+        <td><input type="password" name="password"></td>
+      </tr>
+      <tr>
+        <td align="right"><label for="adress">Адресс получателя</label></td>
+        <td><input type="place" name="adress" class="address"></td>
+      </tr>
+      <tr>
+        <td align="right"><label for="amount">Количество</label></td>
+        <td><input type="number" name="amount"></td>
+      </tr>
+      <tr>
+        <td align="right"><label for="type">Тип</label></td>
+        <td><select name="group1">
+          <option value="Куриные">Куриные</option>
+          <option value="Свинные">Свинные</option>
+          <option value="Говяжьи">Говяжьи</option>
+          <option value="Бараньи">Бараньи</option>
+            </select>
+          <select name="group2">
+          <option value="отборные">Отборные</option>
+          <option value="null">null</option>
+          <option value="null">null</option>
+          <option value="null">null</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td align="right"><label for="dostavka">Доставка</label></td>
+        <td><input type="radio" name="dostavka" value="Почтой">Почтой
+             <input type="radio" name="dostavka" value="Электронно">Электронно
+            <input type="radio" name="dostavka" value="Курьером">Курьером
+        </td>
+      </tr>
+      <tr>
+        <td align="right"><label for="nakladnaya">Требуется накладная</label></td>
+        <td><input type="checkbox" name="nakladnaya"></td>
+      </tr>
+      <tr>
+        <td align="right"><label for="ExtInfo">Дополнительная информация</label></td>
+        <td>
+          <textarea name="ExtInfo" rows="2" cols="50"></textarea>
+        </td>
+      </tr>
+              <td align="right"><input type="submit" name="submit" value="Заказать"></td>
+        <td><input type="reset" name="reset" value="Отменить"></td>
+      </tr>
+      </table>
+  </body>
+</html>

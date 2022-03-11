@@ -1,0 +1,41 @@
+body {
+  background-color: #17183B;
+  color: #fff;
+  padding-top: 25px;
+  padding-left: 25px;
+  font-family: "Comfortaa";
+  font-size: 24px;
+}
+
+
+.MyPhoto {
+  padding-right: 5%;
+}
+
+.table td{
+  border: 2px solid #7B7554;
+  padding: 15px;
+}
+.table {
+  border-collapse: collapse;
+}
+
+#blue {
+  background-color: lightblue;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
